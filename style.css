@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  direction: rtl;
+}
+
+.container {
+  padding: 100px;
+}
+
+.wrapper-head {
+  width: 1400px;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+.wrapper-head img {
+  padding-left: 60px;
+  justify-content: space-between;
+}
+.wrapper-head .col-7 {
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+.wrapper-head .col-7 ul li {
+  direction: rtl;
+  position: relative;
+  float: right;
+  font-size: 14px;
+  font-weight: 800;
+}
+.wrapper-head .col-7 ul li a {
+  color: #510B76;
+}
+.wrapper-head .col-2.cr {
+  display: flex;
+}
+.wrapper-head .col-2.cr img {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+.wrapper-head .col-2.cr img.rounded-circle.c1 {
+  padding: 0px 15px;
+  width: 60px;
+  height: 30px;
+}
+.wrapper-head .col-2.cr img.rounded-circle.c2 {
+  padding: 0px 15px;
+  width: 60px;
+  height: 30px;
+}
+.wrapper-head .col-2.rp {
+  display: flex;
+}
+.wrapper-head .col-2.rp button {
+  margin-left: 10px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  width: 170px;
+  height: 45px;
+  font-size: 12px;
+}
+.wrapper-head .col-2.rp button.rounded-pill.log-in {
+  color: #510B76;
+  background: #FFFFFF;
+}
+.wrapper-head .col-2.rp button.rounded-pill.sign-up {
+  margin-right: 10px;
+  background: #510B76;
+  color: #FFFFFF;
+  box-shadow: 0px 4px 20px #FFB802;
+}
+
+.section1 {
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  display: flex;
+  align-items: center;
+  background-color: #510B76;
+  width: 1318px;
+  height: 632.14px;
+  left: 606px;
+  top: 185px;
+}
+.section1 img.vase {
+  width: 667px;
+  height: 654px;
+  margin-top: 150px;
+  margin-right: 248px;
+}
+.section1 span p {
+  margin-right: 100px;
+  margin-top: 200px;
+  color: #FFFFFF;
+  width: 327px;
+  height: 32px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 32px;
+}
+.section1 h2.card-text {
+  margin-right: 100px;
+  margin-top: 50px;
+  color: #FFFFFF;
+  width: 651px;
+  height: 134px;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 120%;
+}
+.section1 span.description {
+  margin-left: 350px;
+  margin-top: 100px;
+  position: absolute;
+  width: 534px;
+  height: 72px;
+  left: 450px;
+  top: 386px;
+  color: #FFFFFF;
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 180%;
+  /* or 36px */
+  text-align: right;
+}/*# sourceMappingURL=style.css.map */
