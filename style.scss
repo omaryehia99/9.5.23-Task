@@ -14,7 +14,7 @@ body{
      .wrapper-head
      {
         width: 1400px;
-         position: fixed;
+         position: absolute;
          display: flex;
          align-items:center;
          background-color: #FFFFFF;
@@ -33,10 +33,13 @@ body{
         
          ul li {
             direction: rtl;
-             position: relative;
+             position:relative;
              float: right;
-             font-size: 14px;
-             font-weight: 800;
+             font-family: 'TheMixArabic';
+             font-style: normal;
+             font-weight: 500;
+             font-size: 18px;
+             line-height: 180%;
              
              a{
                  color:#510B76;
@@ -69,19 +72,22 @@ body{
              button {
                 margin-left: 10px;
                 margin-top: 10px;
-                
                 display: flex;
+                position: absolute;
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
                 padding: 8px 24px;
                 width: 170px;
                 height: 45px;
-                font-size: 12px;
+                font-size: 16px;
+                font-weight: 400;
+                font-family: 'Cairo';
              }
                        
              button.rounded-pill.log-in
              {
+                margin-right: 210px;
                 color: #510B76;
                 background: #FFFFFF;
              }
@@ -97,6 +103,7 @@ body{
         
         .section1
         {
+            margin-top: 100px;
             max-height: fit-content;
             display: flex;
             align-items: center;
@@ -141,13 +148,8 @@ body{
         }
         span.description
         {
-            margin-left: 350px;
-             margin-top: 100px;
-             position: absolute;
-             width: 534px;
-             height: 72px;
-             left: 450px;
-             top: 386px;
+            margin-right: 100px;
+             margin-top: 200px;
              color: #FFFFFF;
              font-family: 'Cairo';
              font-style: normal;
@@ -160,5 +162,82 @@ body{
         }
         
     }
+
+    .section2
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        img 
+        {   width: 431px;
+            height: 559px;
+            border-radius: 16px;
+        }
+
+        h3{
+        width: 491px;
+        height: 156px;
+        font-family: 'Cairo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 40px;
+        line-height: 130%;
+        text-align: right;
+       text-transform: capitalize;
+        }
+         span{
+            width: 478px;
+            height: 258px;
+            left: 122px;
+            top: 366px;
+            font-family: 'Cairo';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 23px;
+            text-align: right;
+            color: #41404D;
+
+        }
+    
+    }
+
+.section3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .card-header
+    {   
+        font-family: 'Cairo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        /* identical to box height, or 34px */
+        
+        text-align: center;
+        background-color: #510B76;
+
+    }
+    .card-body
+    {
+        width: 300px;
+        height: 100px;
+        justify-content: end;
+        align-items: center;
+        
+        font-family: 'Cairo';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 140%;
+        /* or 22px */
+        
+        text-align: center;
+        letter-spacing: -1px;
+    }
+}
 
      
